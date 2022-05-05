@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "xai-libraries-overview"
+version = "0.1.0"
+description = "Notebook illustrating a blog article on existing XAI librarieft ai"
+authors = ["BastienZim <bastienzim@hotmail.fr>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pandas = "1.3.5"
+seaborn = "0.11.1"
+numpy = "1.22.2"
+matplotlib = "3.5.1"
+scikit-learn = "1.0.2"
+shap = "0.40.0"
+alibi = "0.6.4"
+lightgbm = "3.2.1"
+xgboost = "1.4.1"
+tensorflow = "2.7.0"
+FAT-Forensics = "0.1.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
